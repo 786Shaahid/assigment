@@ -4,7 +4,7 @@ import SideBar from './components/SideBar';
 import { useEffect, useState } from 'react';
 import { formatDate } from './components/common';
 
-// hr@datagenit.com
+
 
 function App() {
   const [fromDate, setFromDate] = useState(formatDate(new Date()));
